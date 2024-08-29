@@ -37,6 +37,5 @@ function flattenTagArray(input: { name: string; value: string }[]): Tags {
 
 export async function bundleToVideo(url: string): Promise<string> {
   const bundle = await unbundleUrl(url);
-  const feed = getBundleFeed(bundle);
-  return feed;
+  return getBundleFeed(bundle);
 }

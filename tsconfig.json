@@ -2,13 +2,12 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "esnext",
-    "outDir": "dist",
+    "outDir": "./dist",
     "lib": ["esnext", "dom"],
     "sourceMap": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "noEmit": true,
     "allowJs": true,
   },
   "include": [
